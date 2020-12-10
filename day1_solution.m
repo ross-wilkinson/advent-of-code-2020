@@ -1,5 +1,6 @@
 %% Advent of code - Day 1
 
+%% Load input
 expenseReport = table2array(readtable('day1_input.txt'));
 
 %% Part 1

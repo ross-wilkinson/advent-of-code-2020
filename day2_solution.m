@@ -1,5 +1,6 @@
 %% Advent of code - Day 2
 
+%% Load input
 [lim, letter, password] = readvars('day2_input.txt');
 
 %% Part 1
