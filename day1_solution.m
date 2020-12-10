@@ -1,7 +1,7 @@
 %% Advent of code - Day 1
 
 %% Load input
-expenseReport = table2array(readtable('day1_input.txt'));
+expenseReport = importdata('day1_input.txt');
 
 %% Part 1
 diff1 = 2020 - expenseReport;
