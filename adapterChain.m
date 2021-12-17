@@ -2,7 +2,6 @@ function [sol, singles, triples] = adapterChain(adapters)
 % Finds adapter chain required to connect source to charging outlet
 
 %% Part 1
-
 sorted = sort(adapters);
 diffs = diff(sorted);
 
